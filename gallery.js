@@ -150,3 +150,15 @@ function GalleryImage() {
 	//4. either a String (src URL) or an an HTMLImageObject (bitmap of the photo. https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement)
 }
 
+function showDetails() {
+
+	if ($( ".moreIndicator" ).hasClass( "rot90" )){
+		$( ".moreIndicator" ).addClass( "rot270" );
+	$( ".moreIndicator" ).removeClass( "rot90" )
+	}
+	else {
+		$( ".moreIndicator" ).removeClass( "rot270" );
+	$( ".moreIndicator" ).addClass( "rot90" )
+	}
+	$( ".details" ).slideToggle( "fast" )
+}
