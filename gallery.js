@@ -64,7 +64,9 @@ if(mCurrentIndex<0){
 
 }
 
-function swapPhoto() {
+
+
+function previousclick() {
 	//Add code here to access the #slideShow element.
 	//Access the img element and replace its source
 	//with a new image from your images array which is loaded 
@@ -92,7 +94,7 @@ if(mCurrentIndex<0){
 	dt[0].innerHTML= "Date: " + mImages[mCurrentIndex].date;
 
 	mLastFrameTime=0
-	mCurrentIndex +=1
+	mCurrentIndex -=1
 
 }
 
@@ -110,7 +112,7 @@ var mJson
 
 // URL for the JSON to load by default
 // Some options for you are: images.json, images.short.json; you will need to create your own extra.json later
-var mUrl = "https://api.npoint.io/a2a427005054ea24b4ae";
+var mUrl = 'new.json';
 
 //Part 2 Slideshow 1 and 2 
 
@@ -152,7 +154,23 @@ function makeGalleryImageOnloadCallback(galleryImage) {
 
 $(document).ready( function() {
 	// This initially hides the photos' metadata information
-	 fetchJSON();
+	const urlParams = new URLSearchParams(window.location.search);
+
+for (const [key, value] of urlParams) {
+    console.log(`${key}:${value}`);
+	mUrl = value
+} 
+	if(mUrl==undefined){
+		mUrl = "https://api.npoint.io/a2a427005054ea24b4ae";
+	}
+	
+	
+	
+	
+	
+	
+	
+	fetchJSON();
 
 	//$('.details').eq(0).hide();
 	
