@@ -152,6 +152,7 @@ function makeGalleryImageOnloadCallback(galleryImage) {
 	}
 }
 
+//Part 5 
 $(document).ready( function() {
 	// This initially hides the photos' metadata information
 	const urlParams = new URLSearchParams(window.location.search);

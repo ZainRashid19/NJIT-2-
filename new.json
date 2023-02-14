@@ -1,82 +1,82 @@
 {
     "images": [
         {
-            "imgPath": "img/places/australia.jpg",
+            "imgPath": "zimages/khabib.jpg",
             "imgLocation": "Khabib Nurmagomedov",
             "description": "September 20, 1988",
             "date": "29-0-0 (Retired)"
         },
         {
-            "imgPath": "img/places/austria.jpg",
-            "imgLocation": "Austria",
-            "description": "Austrian chapel",
-            "date": "01/02/2016"
+            "imgPath": "zimages/islam.jpg",
+            "imgLocation": "Islam Makhachev",
+            "description": "October 27, 1991",
+            "date": "24-1-0 (Current)"
         },
         {
-            "imgPath": "img/places/france.jpg",
-            "imgLocation": "Paris",
-            "description": "Eiffel Tower",
-            "date": "01/03/2016"
+            "imgPath": "zimages/Khamzat.jpg",
+            "imgLocation": "Khamzat Chimaev",
+            "description": "May 1, 1994",
+            "date": "12-0-0 (Current)"
         },
         {
-            "imgPath": "img/places/greece.jpg",
-            "imgLocation": "Greece",
-            "description": "Greek coastline",
-            "date": "01/04/2016"
+            "imgPath": "zimages/jon.jpg",
+            "imgLocation": "Jon Jones",
+            "description": "July 19, 1987",
+            "date": "26-1-0 (Current)"
         },
         {
-            "imgPath": "img/places/hungary.jpg",
-            "imgLocation": "Hungary",
-            "description": "Budapest skyline",
-            "date": "01/05/2016"
+            "imgPath": "zimages/Anderson.jpg",
+            "imgLocation": "Anderson Silva",
+            "description": "April 14, 1975",
+            "date": "34-11-0 (1 NC) (Retired)"
         },
         {
-            "imgPath": "img/places/india.jpg",
-            "imgLocation": "India",
-            "description": "Taj Mahal",
-            "date": "01/06/2016"
+            "imgPath": "zimages/alex.jpg",
+            "imgLocation": "Alex Pereira",
+            "description": "July 7, 1987",
+            "date": "7-1-0 (Current)"
         },
         {
-            "imgPath": "img/places/italy.jpg",
-            "imgLocation": "Italy",
-            "description": "Venice",
-            "date": "01/07/2016"
+            "imgPath": "zimages/Charles.jpg",
+            "imgLocation": "Charles Oliveira",
+            "description": "October 17, 1989",
+            "date": "33-9-0 (1 NC) (Current)"
         },
         {
-            "imgPath": "img/places/japan.jpg",
-            "imgLocation": "Japan",
-            "description": "Hirosaki Castle",
-            "date": "01/08/2016"
+            "imgPath": "zimages/Conor.jpg",
+            "imgLocation": "Conor McGregor",
+            "description": "July 14, 1988",
+            "date": "22-6-0 (Current)"
         },
         {
-            "imgPath": "img/places/korea.jpg",
-            "imgLocation": "South Korea",
-            "description": "Seoul",
-            "date": "01/09/2016"
+            "imgPath": "zimages/Dustin.jpg",
+            "imgLocation": "Dustin Poirier",
+            "description": "January 19, 1989",
+            "date": "29-7-0 (1 NC) (Current)"
         },
         {
-            "imgPath": "img/places/norway.jpg",
-            "imgLocation": "Norway",
-            "description": "Countryside mountains",
-            "date": "01/10/2016"
+            "imgPath": "zimages/Sean.jpg",
+            "imgLocation": "Sean O'Malley",
+            "description": "October 24, 1994",
+            "date": "16-1-0 (1 NC) (Current)"
         },
         {
-            "imgPath": "img/places/switzerland.jpg",
-            "imgLocation": "Switzerland",
+            "imgPath": "zimages/Nate.jpg",
+            "imgLocation": "Nate Diaz",
             "description": "Lake castle",
             "date": "01/11/2016"
         },
         {
-            "imgPath": "img/places/thailand.jpg",
-            "imgLocation": "Thailand",
-            "description": "Beachline",
-            "date": "01/12/2016"
+            "imgPath": "zimages/Daniel.jpg",
+            "imgLocation": "Daniel Cormier",
+            "description": "April 16, 1985",
+            "date": "22-13-0 (Current)"
         },
         {
-            "imgPath": "img/places/turkey.jpg",
-            "imgLocation": "Turkey",
-            "description": "Istanbul",
-            "date": "01/13/2016"
+            "imgPath": "zimages/zabit.jpg",
+            "imgLocation": "zabit magomedsharipov",
+            "description": "March 1, 1991",
+            "date": "18-1-0 (Retired)"
         }
   ]
 }
