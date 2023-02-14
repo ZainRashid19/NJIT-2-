@@ -2,7 +2,9 @@ body {
 	overflow: auto;
 	font-family: 'Trebuchet MS', sans-serif;
 	font-weight: bold;
-	background-image: url(../img/geometry.jpg);
+	background-image: url("https://media.ksdk.com/assets/CCT/images/601702227/601702227_1140x641.jpg");
+background-repeat: no-repeat;
+background-size: contain;
 }
 
 #photoBooth {
