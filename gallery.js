@@ -115,7 +115,7 @@ var mJson
 var mUrl = 'new.json';
 
 //Part 2 Slideshow 1 and 2 
-
+// Milestone 1. The JSON file is now being parsed and can run in the html when it is called with the correct variables 
 function fetchJSON(){
 	mRequest.onreadystatechange = function(){
 		console.log("on ready state change");
@@ -128,7 +128,7 @@ function fetchJSON(){
 	mRequest.send();
 }
 
-// function made to iterate and then give the variables values for their images
+// Milestone 2. function made to iterate and then give the variables values for their images. The json attributes are passed in with these
 function iterateJSON(mJson){
     for (let x = 0; x < mJson.images.length; x++) {
 		mImages[x] = new GalleryImage();
@@ -184,7 +184,7 @@ window.addEventListener('load', function() {
 }, false);
 
 
-//Part 1 defining the gallery image for the functions 
+//Milestone1 defining the gallery image for the functions. These are variables used for the json files that are than used in the html
 function GalleryImage() {
 	var location ;
 	var description ;

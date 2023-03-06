@@ -7,6 +7,11 @@ background-repeat: no-repeat;
 background-size: contain;
 }
 
+img{
+	height:200px;
+	width:200px;
+}
+
 #photoBooth {
 	margin-top: .2em;
 	padding: 10px;
@@ -60,6 +65,8 @@ background-size: contain;
 	position: relative;
 }
 
+/* Milestone 3. From prevPhoto to PrevPhoto:hover. These are the styling for the buttons. Milestone 3/4 also includes the new custom json file */
+
 #prevPhoto {
 	height: 42px;
 	width: 42px;
@@ -111,4 +118,3 @@ Make it animate nicely. You'll need CSS3 for this*/
 	transition: all 1s ease;
 	transform:rotate(270deg);
 }
-
